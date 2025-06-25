@@ -375,3 +375,17 @@
       line-height: 1;
     }
   }
+
+
+  .copyright {
+    font-size: 14px;
+    font-weight: 400;
+    justify-items: end;
+    text-align: center;
+    color: #6b7280; /* Tailwind's text-dark-600 */
+  }
+  @media (min-width: 1280px) {
+    .copyright {
+      text-align: left;
+    }
+  }
